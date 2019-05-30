@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--所有的自定义View的属性值，都在这里设置自定义属性和属性值的单位信息-->
+    <declare-styleable name="circleByDraw">
+        <!--外圆的属性-->
+        <!--Circle的描边-->
+        <attr name="CircleStrokeWidth" format="integer" />
+        <!--描边的颜色值，即是画笔的颜色值-->
+        <attr name="CircleStrokeColor" format="color" />
+        <!--圆形的半径-->
+        <attr name="CircleRadius" format="integer" />
+    </declare-styleable>
+
+    <!--花呗信用值，自定义View的属性值-->
+    <declare-styleable name="DrawHuaBeiView">
+        <!--信用值的最大数-->
+        <attr name="maxStore" format="integer"></attr>
+        <!--圆盘起始角度-->
+        <attr name="startAngle" format="integer"></attr>
+        <!--圆盘扫过的角度-->
+        <attr name="sweepAngle" format="integer"></attr>
+    </declare-styleable>
+</resources>
