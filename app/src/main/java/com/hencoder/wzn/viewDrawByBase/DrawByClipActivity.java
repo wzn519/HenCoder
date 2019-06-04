@@ -9,6 +9,7 @@ import com.hencoder.wzn.R;
 
 /**
  * Created by wzn on 2019/5/18.
+ * 绘制图形的基本使用
  */
 
 public class DrawByClipActivity extends Activity {

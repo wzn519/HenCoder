@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="FullScreenStyle" parent="@style/AppTheme">
+        <!--去掉状态栏的设置-->
+        <item name="android:windowFullscreen">true</item>
+        <!--去掉标题栏-->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
 
+import com.hencoder.wzn.learnapp.activity.SplashActivity;
 import com.hencoder.wzn.viewDrawByBase.DrawByClipActivity;
 import com.hencoder.wzn.viewDrawByBase.OnDrawActivity;
 import com.hencoder.wzn.viewDrawByBase.drawHuaBeiView.DrawHuaBeiActivity;
@@ -24,6 +25,17 @@ public class MainActivity extends Activity {
         setOnDrawByClipListener();
         setDrawHuaBeiListener();
         setPathQuatListener();
+        setVideoViewListener();
+    }
+
+    private void setVideoViewListener() {
+         findViewById(R.id.btn_video_view).setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View v) {
+                 /*要在主工程的添加引用*/
+                 startActivity(new Intent(MainActivity.this, SplashActivity.class));
+             }
+         });
     }
 
     private void setPathQuatListener() {

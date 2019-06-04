@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hencoder.wzn.learnapp">
+<!-- -->
+    <application
+        android:theme="@style/AppTheme"
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity android:name=".activity.MainActivity">
+
+        </activity>
+        <activity android:name=".activity.SplashActivity"
+            android:theme="@style/FullScreenStyle" >
+            <!--添加Intent的过滤器-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
